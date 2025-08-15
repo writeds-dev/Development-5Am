@@ -68,3 +68,452 @@
 
 // done with object 
 // in progress with arrays we will try to c over this tomrrow 
+
+
+// // // // // // const obj ={
+// // // // // //     name : "devanshu",
+// // // // // //     class: "23"
+// // // // // // }
+// // // // // // delete obj.class
+// // // // // // console.log(obj)
+// // // // // // // it  is called as one special operator 
+
+
+// // // // // // // nested object 
+// // // // // // // object inside the object 
+
+
+
+// // // // // // }
+// // // // // // }
+
+// // // // // // console.log(person.address.personal)
+
+// // // // // // special opertors are there 
+
+// // // // // // typeof
+// // // // // // delete 
+// // // // // // await
+// // // // // // in
+// // // // // // of
+// // // // // // new
+
+// // // // // // arthmatic -- + - * % 
+
+
+// // // // // // javascript ===== react js 40 % ---  it is all about the concept 
+
+// // // // // // react js  -- react native -- mmobile application --- 40 % 60%
+
+// // // // // // how to create one simple object and comple object ?
+
+// // // // // // adding the function inside the object it will always be unknow
+
+// // // // // const obj={
+// // // // //     name:"devanshu",
+// // // // //     class:"12",
+// // // // //     fn:function(){  //anonymous function 
+// // // // // const value=320
+// // // // // console.log(value)
+// // // // //     }
+// // // // // }
+
+// // // // // arrays --- 
+// // // // // array is called the datastructure and it is used for to store the multiple values 
+// // // // // in the one variable
+
+
+// // // // const data=[12,"12",true,{name:"devanshu"}]
+// // // // console.log(data)
+
+// // // // we have elements in the array and the value that are stored in the elements 
+// // // // those positioing is called as index 
+// // // // index will always start from 0 to n --- 
+// // // // we have 4 types of operations alsoo in thie 
+// // // //  - read 
+// // // // update
+// // // // delete
+// // // // insert 
+
+// // // // method in the array we will see this 
+
+// // // // done with object 
+// // // // in progress with arrays we will try to c over this tomrrow 
+
+
+// // // // var data =[
+// // // //     Number,String,Boolean,Object,function
+// // // // ]
+
+// // // // var data =[1,"2","4",true,{okay:"its fine"}
+// // // // ]
+// // // // console.log(data)
+
+// // // // we have lot of ways to create the arrays 
+// // // // - arrays literals 
+// // // //  array=[""]  square brackets represents the array 
+// // // // - arrays constructor
+
+// // // //  propeties 
+// // // // ----------------
+
+// // // // var data=[1,2,3,4,5,6,7]
+// // // // what is the lenght for this data 
+// // // // index will always start from 0 to n 
+// // // // the data type for these index are called as the string not number 
+// // // // beacuse these are mapped to the string behind the scen or browser 
+// // // // console.log(data.length)
+// // // // console.log(data["1"])  //2
+
+
+// // // //  we have four major method in the array - 
+// // // // push 
+// // // // pop
+// // // // shift 
+// // // // unshift
+
+
+// // // // push -- it will push the element to the array
+
+// // // // var  data =[1,2,3,4]
+// // // // data.pop()
+// // // // console.log(data)
+// // // // push element will store the element in the last 
+// // // // pop will remove the element from the last 
+
+// // // // shift and unshift 
+// // // // shift will remove the element from the first 
+// // // // unshift will add the element to the first 
+
+// // // // var data =[1,3,4,5]
+// // // // data.unshift("1")
+// // // // // console.log(data)
+
+// // // // arrrays -- 
+// // // // arrays method 
+// // // // how to create array -- 
+// // // // how to add elements to the array 
+// // // // how to access the element witht the help of index 
+
+// // // // we have different types of method in the arrays 
+
+// // // // map--- method 
+
+// // // // itertate karega sari values ko or with the help of this we can iterate the 
+// // // // whole element 
+
+
+// // // // var data=[1,2,3,4]
+// // // // {data.map((value,index)=>{
+// // // //     console.log(value)
+// // // // })}   // it is the way to access the dynamic value 
+
+
+// // // // var data =[1,2,3,4,5]
+// // // // // me chahta hu ki  jab me map function use kru to jo bhi array ki values hai vo print ho jaye na ki array ---- 
+// // // // //  curluy braces ka use hum dynamic value use karne ke liye karte hai
+// // // // {data.map((value,index)=>{
+// // // // console.log(value)
+// // // // console.log(index)
+// // // // })}
+
+// // // // filter method in the arrays 
+// // // // -----------------------------------
+
+// // // // it will filter the values depend upon the conditions 
+
+// // // let users=[
+// // //     {name:"devnashu",age:12,},
+// // //     {name:"devnashu2",age:32,},
+// // //     {name:"devnashu3",age:22,},
+// // // ]
+
+// // // // array of object inside this array iam storing three objet 
+// // // // we will use filter method 
+
+// // // // it will filter the values according the conditions 
+
+// // // let add=users.filter((user)=>{
+// // //     if(user.age>=18){
+// // //         console.log(user)
+// // //     }else{
+// // //         console.log("tum se na ho poayega")
+// // //     }
+// // // })
+
+// // // console.log(add)
+
+
+// // // // revserse method in the javascript
+// // // let data=[1,2,3,4,5,6,7]
+// // // console.log(data)
+// // // data.reverse()
+// // // console.log(data)
+
+// // // sort + revserse 
+
+// // // let str="hello"
+// // // let data=str.split("").reverse().join("")
+// // // console.log(data)   do read about this for tomorrow and with logic and explaination
+
+// // // splice --- concat --- find ()---- hositing and dom objects 
+
+// // // class will be 9 to 10 pm---- 
+// // // patterns + loops concecpt 
+
+// // // *
+// // // * *
+// // // * * *
+// // // * * * *
+// // // * * * * *   pattern in js
+
+// // // logic building --- 
+
+// // // -- javascript -- 1 sept
+
+// // // type script -- 
+// // //   advance css -- 
+
+
+// // // const number=[1,2,3,4,5,6,7]
+// // // const result=number.map((value,index)=>{
+// // //     console.log(value)
+// // //     console.log(index)
+// // // })
+
+
+// // // loops 
+// // // map function 
+// // // elements is having some index and your value will always start fromm 
+// // // the 0 as index in the Array
+
+
+// // // const users =[
+// // // {name:"devanshi",age:54},
+// // // {name:"rajat",age:34},
+// // // {name:"pogo",age:30}
+// // // ]
+
+// // // // this is called as the array of the object 
+// // // // we are having data inside the arrays -- object {}
+// // // // dot operator notation 
+// // // const names=users.map(user=>user.name)
+// // // // user -- first parameters --- users value is there ?
+// // // console.log(names)
+// // // 
+// // //  interview key points -
+// // // - it always return the array [same as the orignal  one]
+// // // it is used  to iterate the all values from the array
+// // // it will pass the one call back function insde that function we are 
+// // // two paramaters are there ( values -- in which the value for the array will be store and 2nd-- index -- it will the print the index for the elements)
+
+// // // filter method =====
+
+// // // filter method will do the same work like the map method ?
+// // // what is difference here 
+// // // filter will print the value based on some condition 
+// // // map will directly print everything 
+
+// // // filter and map 
+// // // filter--- filte method will print the result based on the condition 
+
+// // // men=[
+// // //     // 10000
+// // // ]
+// // //  filter.men==="men category"{
+// // //  console.log("men prdocuts")
+// // // }
+
+// // // const  users=[
+
+// // //     {name:"devanshu",age:18},
+// // //     {name:"rajat",age:32},
+// // //     {name:"chottabheem",age:34}
+// // // ]
+// // // // age >18 print 
+// // // // agar  age for the users is greater than the 18 please  print data 
+// // // const data=users.filter(user=>user.age >18);
+// // // console.log(data)
+
+
+// // const  fruits=["mango","apple","grape","banana","kiwi"]
+// // // filter out string data 
+// // // if a is present in the array please print that string
+// //  const result=fruits.filter(data=>data.includes("a"))
+// //  console.log(result.length)
+// //  console.log(fruits.length)
+
+// // //  it will return the array with the same orginal key [data]
+// // // length for the array can small or greater then depend upon condition 
+
+
+// // for each method 
+// // - 
+
+// const number=[1,2,3,4,5]
+// number.forEach(num=>{
+//     console.log(num*2)
+// })
+// // it is working like loops -- \
+
+
+
+// const number =[1,2,3,4,5,6,7]
+
+// number.forEach((num,index)=>{
+//    console.log(index+1,num)
+// })
+//  template string --- it is important 
+// react 
+
+// map method  in the details 
+// how filter method works 
+// how for each method work 
+
+// --- loops and operators  // 
+//  1 or 2 days 
+
+// printing patterns 
+
+// 11:30 to 12:30 
+// ---------------------
+
+// 30 aug -- typescript  
+
+
+//  how to do you create the arrays in the javascript --- 
+// --------------------------------------------------------------
+
+
+
+//   we have two ways actually one is called 
+// arrays literal and array constructor 
+//  const data =[]    //array literals 
+// //  array constructor 
+// const data2= new Array()
+
+//   basic question in the javascript ===
+// ==============================================================================
+//  what is the difference between the new array(5) and [5]?
+
+// let a= new Array(5)  // create the array with length [slots will be empty]
+// console.log(a)
+
+// let b=[3]         // it will print the value means element of array
+// console.log(b)
+
+// ✔️ what is key difference in this 
+// 💀 --  new array(5)  -- it will give us the lenght of the array 
+         //   [values]--- it will print the element for the array ! 
+
+
+         //  how we can find the length of the array 
+         // const data =[1,2,3,4,5,6]
+         // console.log(data.length)   
+         // // length of the array !
+         // // in the length return number of elements in the array 
+   
+         // // if i change the length of array it will truncate 
+         //  data.length=2
+         //  console.log(data)
+
+         // what is the type of array []--- object 
+      //  in javascript eveything is treated as object in internal structure  
+      // js--- non-primitve and primitve method [data types]
+      // array is special object with some good properties 
+      // Array.length()[]
+      // index values []
+
+      // console.log(typeof [])  //it is used to check the type of the data 
+
+// intermeditate one 
+
+// what is diff push and pop 
+// what is diff pop and shift 
+//
+
+// what is splice and  slice  in the array method []
+
+//  let arr=[1,2,3,4,5]
+
+// // remove the element from the given index and insert the value here 
+// arr.splice(1,2,"a","b","c","d")
+// console.log(arr)
+
+// splice method will work on the three parameters 
+
+// start , deletecount , item1 and item2
+// (1- index , 2(delete),setitem)
+// let arr=[1,2,3,4,5,5]
+// arr.splice(1,3,"a","x","v","b")
+// console.log(arr)
+
+//  start -- index to begin changes 
+// delete count -- element index will deleted from this
+// item --  that items we want to set 
+
+// slice 
+
+// copy the element from given index 1 to 3 [not including last one]
+// const arr=[1,2,3,4,5,6,7]
+// let data= arr.slice(1,4)    // it will print 2 3 4 value only 
+// console.log(data)
+// console.log(arr)
+
+
+   
+
+   // // const a=200
+// // console.log(a ++)
+
+
+// // [post increment and pre increment ]
+// //   preincrement
+
+// // it  is first performing increment operations then it will print the value 
+
+// // let a =40    //41 store here 
+// // let b = ++a    // + represent the one 40+1 41  
+
+// // console.log(a)
+// // console.log(b)
+
+
+// // post increment 
+// //  it is first printing the value then perfroming increment operations 
+
+// const a=20
+// const b =a++ 
+// // post increment it will first print the vlaue 
+// console.log(a)
+// console.log(b)
+
+// let a=2
+// let b= a++
+// // use value first then increment 
+// console.log(a)
+// console.log(b)
+// // b will got the old value 
+
+// preincrement -  add 1 now , then give me value 
+// postincrement -- give me what you have then afterward please add 1 
+
+// what is difference betweent the == and === 
+// ------------------------------------------------------
+
+// == is called loose equality 
+// - compares values only
+// "4"==4  it will automcaticaly convert the string into number behind the scences me 
+
+// console.log(5==="5")
+
+// loose equality -- which only checks the value  
+// strict equality - which checks the values and datatypes 
+
+// nested objects 
+
+// - create one object with the name of user 
+//  create one more object inside this with the name of address 
+// add access the vlaues in address pincode 
+
+
